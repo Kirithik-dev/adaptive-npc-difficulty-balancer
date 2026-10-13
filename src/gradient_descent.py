@@ -1,5 +1,5 @@
 import numpy as np
-from cost_function import compute_mse_gradient, compute_bias_gradient
+from .cost_function import compute_mse_gradient, compute_bias_gradient
 
 def train_linear_regression(X, y, learning_rate=0.01, iterations=1000):
   """Train a linear regression model using gradient descent."""

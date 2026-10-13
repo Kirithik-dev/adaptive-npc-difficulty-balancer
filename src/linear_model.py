@@ -1,6 +1,6 @@
 import numpy as np
-from scaler import StandardScaler
-from gradient_descent import train_linear_regression, online_update
+from .scaler import StandardScaler
+from .gradient_descent import train_linear_regression, online_update
 
 class LinearModel:
   """From-scratch Linear Regression with automatic feature scaling."""
